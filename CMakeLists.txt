@@ -1,6 +1,4 @@
-cmake_minimum_required(VERSION 3.19)
+cmake_minimum_required(VERSION 3.18)
 project(result)
 
-set(CMAKE_CXX_STANDARD 20)
-
-add_executable(result src/main.cpp)
+add_subdirectory(test)
